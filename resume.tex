@@ -1,0 +1,361 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-20pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-15pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Name} \\
+    \vspace{10pt}
+    % Contact information
+    \href{mailto:mail@gmail.com}{\underline{mail@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in}{\underline{LinkedIn}}  ~
+    \href{https://github.com/}{\underline{GitHub}} ~
+    \href{https://leetcode.com}{\underline{LeetCode}}
+\end{center}
+
+
+
+
+
+
+\vspace{-5pt}
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {R.V. College Of Engineering }{Dec. 2021 -- Current}
+      {BE in Computer Science and Engineering}{CGPA-????}
+    % \resumeSubheading
+    %   {Class 10 $|$ Class 12}{2018 $|$ 2020}
+    %   {ICSE(94.66\%) $|$ Karnataka PU Board(93\%)}
+%   \resumeSubHeadingListEnd
+
+    % \resumeSubHeadingListStart
+
+  \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Electronics Company}{May 2020 -- August 2020}
+%       {Software Engineer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
+%         \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
+%         \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
+%         \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Startup, Inc}{May 2019 -- August 2019}
+%       {Front End Developer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+%         \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+%         \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+%         \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
+%     \resumeItemListEnd
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\vspace{-5pt}
+
+ \vspace{-15pt}
+
+%-----------INVOLVEMENT---------------
+\vspace{5pt}
+
+\section{Experience}
+\vspace{-4pt}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+        {\href{ }{\textbf{Somewhere, Bengaluru}} $|$ \emph{ExpressJS, PostgreSQL, ReactJS, Flask}}{Oct 2023 -  Feb 2024}
+        \resumeItemListStart
+                \resumeItem{Developed the \textbf{OWNER Registration System}, implementing \textbf{RESTful APIs} using \textbf{Flask and Express.js} to integrate frontend and backend seamlessly. Designed and maintained a \textbf{React-based} user interface for user and vehicle document management, ensuring user-friendly experience.}
+                \resumeItem{Implemented queries and utilized \textbf{PostgreSQL} for efficient data retrieval and updates, improving system performance}
+                \resumeItem{Implemented \textbf{appointment scheduling system} and biometric device integration via REST API, enhancing functionality and data access.}
+        \resumeItemListEnd
+        \resumeProjectHeading
+        {\href{ }{\textbf{COE, RVCE}} $|$ \emph{ Django, OpenCV}}{Oct 2022 - Jan 2023}
+            \resumeItemListStart
+                \resumeItem{Implemented face detection and recognition using \textbf{OpenCV}. Created a \textbf{Django-based web interface} for image upload, allowing users to easily upload images and view recognition results.} 
+                 \resumeItem{Integrated a database for storing user images and recognition results, and utilized \textbf{XML} files for detailed feature data. Extracted and stored facial features in XML files for efficient retrieval and analysis}
+        \resumeItemListEnd
+    %     \resumeProjectHeading
+    %     {\href{ }{\textbf{IEEE Computer Society Bangalore Chapter}} $|$ \emph{Numpy, Python}}{December 2022 - May 2023}
+    %         \resumeItemListStart
+    %             \resumeItem{Implemented Change-Detection techniques on LEVIR-CD and WHU-CD datasets.}
+    %             \resumeItem{Utilized advanced techniques, including \textbf{BIT}, \textbf{ChangeR}, and a \textbf{Cascading approach with HoPC}, achieving benchmark \textbf{accuracy of 93\%} with \textbf{2\% false alarm rate} for defense applications while reducing time and computational complexities.}
+    %     \resumeItemListEnd
+        
+    % \resumeSubHeadingListEnd
+    \vspace{5pt}
+
+%-----------PROJECTS-----------
+\vspace{-5pt}
+\section{Research Publications}
+\vspace{0pt}
+    \resumeSubHeadingListStart
+
+          \vspace{0pt}
+          \resumeProjectHeading
+          {\textbf{\href{}{Real-time Insights and Visualizations for Unprecedented Impact in Ball Badminton}} \\
+            \footnotesize{\emph{\textbf{- ISBN: 978-93-5877-507-5}}}} {Sept 2023 - Oct 2023}
+
+              \resumeItemListStart
+                \resumeItem{Developed user-friendly web-app for the \textbf{real-time} analysis and display of ball badminton sports.}
+                \resumeItem{Analysis involves tracking of the movements, similarly ball tracking, court boundary detection using \textbf{CV algorithms} along with display of matches played and live match score with win probability.}
+                \resumeItem{Recent Technologies like ReactJS, Python-Flask API, OpenCV framework, firebase-realtime database was utilized.}
+              \resumeItemListEnd
+        \resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Projects}       
+          \vspace{0pt}
+          \resumeSubHeadingListStart
+          
+              \resumeProjectHeading
+              {\textbf{ \href{https://github.com/RohithgowdaM/DBMS-EL}{Pharmacy-Management-System} } $|$ \emph{Java, MySQL}}{Jan 2024 - Mar 2024}
+              \resumeItemListStart
+              \vspace{+2pt}
+                \resumeItem{Developed a Pharmacy Management System to streamline pharmaceutical shop operations, enhancing accuracy and efficiency}
+                \resumeItem{Set up the project using Eclipse J2EE and integrated MySQL and MongoDB databases. Implemented front-end (Java) and back-end (MySQL) functionalities.}
+                \resumeItem{Enhanced user experience with detailed reports, invoices, and real-time inventory tracking.}
+              \resumeItemListEnd 
+              \vspace{0pt}
+              
+            \resumeProjectHeading
+              {\textbf{ \href{}{AI application for patent Search} } $|$ \emph{RAG-LLM}}{Jan 2024 - Mar 2024}
+              \resumeItemListStart
+              \vspace{+2pt}
+                \resumeItem{Developed a user-friendly web application for efficient patent retrieval using ReactJS, Python-Flask and web-scrapping.}
+                \resumeItem{\textbf{RAG-LLM framework} was used along with Python to build AI for retrieval.}
+              \resumeItemListEnd 
+              \vspace{0pt}
+
+            \resumeProjectHeading
+          {\textbf {{ Bat Call Annotation-Tool}} $|$ \emph{ Django}}{June 2023 - Oct 2023}
+          \resumeItemListStart
+          \vspace{+2pt}
+            \resumeItem{Developed a full-fledged website facilitating users to upload bat calls audio and generating spectrogram of the call}
+            \resumeItem{Implemented features for users to annotate the calls and storing the coordinates with the name of the bat species}
+          \resumeItemListEnd 
+    
+    \resumeSubHeadingListEnd
+\vspace{0pt}
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \vspace{2pt}
+     \textbf{Languages}{: C, CPP, Java, Python, JavaScript, MySQL,} \\
+     \vspace{2pt}
+     \textbf{Developer Tools}{: Git, VS Code, Jupyter-Notebook, Intelli-J, Matlab-Antenna designer} \\
+     \vspace{2pt}
+     \textbf{Technologies/Framework}{: Django, ReactJS, ExpressJS, Flask} \\
+     % \textbf{Technologies/Frameworks}{: Docker, Kubernetes, Azure CI-CD,SkLearn, Keras} \\
+     \vspace{2pt}
+    }}
+ \end{itemize}
+
+\section{Achievements}
+    \vspace{2pt}
+        \begin{itemize}
+            \item \textbf{ Ball Badminton }
+            \item \textbf{Team dhRuVa, RVCE.}
+        \end{itemize}
+% \section{Achievements}
+%     \vspace{0pt}
+%     \resumeSubHeadingListStart
+
+%           \vspace{0pt}
+%           \resumeProjectHeading
+%           {\textbf{Hackathon}} 
+            % \emph{\textbf{- Published in Springer}}{Aug 2021 - May 2022}
+
+
+
+%           \resumeItemListStart
+%             \resumeItem{Reached Top-12 in National Level hackathon - \textbf{CentuRITon}}
+%           \resumeItemListEnd 
+    
+%     \resumeSubHeadingListEnd
+
+
+
+% \section{Achievements}
+%     \resumeSubHeadingListStart
+       
+%         \resumeSubheading{Engineering Entrance Exams}{September 2020}{}{}
+%             \resumeItemListStart
+%                 \resumeItem{Qualified the prestigious JEE-Advanced examination. and secured 97.67\% JEE-MAIN}
+%                 \resumeItem{Secured 297 rank in KCET}
+%             \resumeItemListEnd
+
+        
+%         \resumeSubheading{Competitive Programming Profiles}{}{}{}
+%             \vspace{-5pt}
+%             \resumeItemListStart
+%                 \resumeItem{\href{https://www.codechef.com/users/dileep_shar09}{\underline{CodeChef}}\hspace{10pt}{(Rating 1640)}}
+                
+%                 \resumeItem{\href{https://leetcode.com/dilshar23/}{\underline{Leetcode}}\hspace{10pt}{(Solved 456 problems)}}
+%             \resumeItemListEnd
+            
+        
+%     \resumeSubHeadingListEnd
+% \vspace{-5pt}
+
+% \section{Certificates}
+%    \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \vspace{2pt}
+%      \textbf{JAVA DEVELOPER}{: From infosys spring board program} \\
+%      \vspace{2pt}
+     
+%      % \textbf{Technologies/Frameworks}{: Docker, Kubernetes, Azure CI-CD,SkLearn, Keras} \\
+%      \vspace{2pt}
+%     }}
+%  \end{itemize}
+
+%  \vspace{-10pt}
+    
+
+\end{document}
