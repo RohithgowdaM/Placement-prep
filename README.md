@@ -18,13 +18,11 @@ Welcome to the **Placement Preparation Guide**! This repository is aimed at help
 
 Here are my personal notes that I have compiled over time. Feel free to go through them and use them for your preparation:
 
-- **[Notes on Data Structures & Algorithms](link_to_your_notes)**
-- **[Notes on System Design](link_to_your_notes)**
-- **[Operating Systems (OS) Notes](link_to_your_notes)**
-- **[Computer Networks (CN) Notes](link_to_your_notes)**
-- **[Database Management Systems (DBMS) Notes](link_to_your_notes)**
-- **[Object-Oriented Programming (OOP) Notes](link_to_your_notes)**
-- **[Mock Interview Questions](link_to_your_notes)**
+- **[Notes on Data Structures & Algorithms](https://github.com/RohithgowdaM/Placement-prep/tree/main/DSA)**
+- **[Operating Systems (OS) Notes](https://github.com/RohithgowdaM/Placement-prep/tree/main/OS)**
+- **[Computer Networks (CN) Notes](https://github.com/RohithgowdaM/Placement-prep/tree/main/Computer%20-%20Networks)**
+- **[Database Management Systems (DBMS) Notes](https://github.com/RohithgowdaM/Placement-prep/tree/main/DBMS)**
+- **[Object-Oriented Programming (OOP) Notes](https://github.com/RohithgowdaM/Placement-prep/tree/main/Language)**
 
 ## 💡 Key Areas to Focus
 
@@ -51,25 +49,25 @@ For placement preparation, it is essential to cover the following areas:
 ## 🔗 Recommended Resources
 
 ### 1. **DSA Learning Resources**:
-- **[Striver’s SDE Sheets](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)**:
-   - **Top 150 Questions**: Covers most commonly asked problems across FAANG companies.
-   - **Graph Series**: Focuses specifically on important graph-related problems.
-   - **Dynamic Programming (DP) Series**: Contains problems to master DP for interviews.
-   - **Interview Sheet**: A comprehensive series to cover all important coding topics.
+- **[Striver’s SDE Sheets](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)**:
+   - **Striver's A2Z Sheet**: A comprehensive guide covering a wide range of topics in coding, providing a systematic approach to mastering data structures and algorithms.
+   - **Striver's SDE Sheet**: A curated list of the most frequently asked coding questions tailored for software development engineer (SDE) interviews.
+   - **Striver's 79 Sheet**: Focuses on 79 essential coding problems that cover key concepts necessary for cracking coding interviews.
+   -  **Blind 75 Sheet**: Contains 75 handpicked questions that are considered essential for interview preparation, especially for top tech companies.
 - **[LeetCode](https://leetcode.com/)** - Solve coding problems for interview preparation.
 - **[GeeksforGeeks DSA](https://www.geeksforgeeks.org/data-structures/)** - Great resource for learning and practicing DSA.
 - **[InterviewBit - DSA Practice](https://www.interviewbit.com/practice/)** - Structured practice questions for coding interviews.
-- **[Coding Ninjas](https://www.codingninjas.com/)** - Offers various courses and interview preparation programs.
+- **[Coding Ninjas](https://www.naukri.com/code360/guided-paths)** - Offers various courses and interview preparation programs. It consists the notes and mcqs for OS, CN, DBMS and system design also.
 
 ### 2. **Core Subjects**:
 
 #### **Operating Systems (OS)**:
 - **[GeeksforGeeks OS Resources](https://www.geeksforgeeks.org/operating-systems/)** - Comprehensive OS concepts explained.
-- **[InterviewBit OS Questions](https://www.interviewbit.com/operating-system/interview-questions/)** - Interview questions on operating systems.
+- **[InterviewBit OS Questions](https://www.interviewbit.com/operating-system-interview-questions/)** - Interview questions on operating systems.
 
 #### **Computer Networks (CN)**:
 - **[GeeksforGeeks CN Resources](https://www.geeksforgeeks.org/computer-network-tutorials/)** - Learn the fundamentals of computer networks.
-- **[InterviewBit CN Questions](https://www.interviewbit.com/computer-network/interview-questions/)** - Key questions on computer networks.
+- **[InterviewBit CN Questions](https://www.interviewbit.com/networking-interview-questions/)** - Key questions on computer networks.
 
 #### **Database Management Systems (DBMS)**:
 - **[GeeksforGeeks DBMS Resources](https://www.geeksforgeeks.org/dbms/)** - Detailed articles covering all DBMS topics.
@@ -80,11 +78,11 @@ For placement preparation, it is essential to cover the following areas:
 - **[InterviewBit OOP Questions](https://www.interviewbit.com/oops-interview-questions/)** - Essential OOP interview questions.
 
 ### 3. **System Design**:
-- [System Design Primer](https://github.com/donnemartin/system-design-primer) - A comprehensive guide to learning system design.
-- [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview) - Paid but worth it for learning system design.
+- **[System Design Primer](https://github.com/donnemartin/system-design-primer)** - A comprehensive guide to learning system design.
+- **[Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)** - Paid but worth it for learning system design.
 
 ### 4. **Puzzles**:
-- **[GeeksforGeeks Puzzles](https://www.geeksforgeeks.org/puzzles/)** - Collection of interesting puzzles asked in technical interviews.
+- **[GeeksforGeeks Puzzles](https://www.geeksforgeeks.org/top-100-puzzles-asked-in-interviews/)** - Collection of interesting puzzles asked in technical interviews.
 
 ### 5. **Behavioral Interviews**:
 - [Cracking the Coding Interview](https://www.amazon.com/dp/0984782850) - A great book for both technical and behavioral interviews.
@@ -121,7 +119,7 @@ For placement preparation, it is essential to cover the following areas:
 
 ## 📄 Resume Preparation
 
-A well-crafted resume is crucial for making a great first impression. In this repository, you will find a **[Resume Template](link_to_resume_template)** that you can use to create your own. Here are some tips for crafting an effective resume:
+A well-crafted resume is crucial for making a great first impression. In this repository, you will find a **[Resume Template](https://github.com/RohithgowdaM/Placement-prep/blob/main/resume.tex)** that you can use to create your own. Here are some tips for crafting an effective resume:
 
 1. **Tailor Your Resume**: Customize your resume for each job application to highlight relevant skills and experience.
 2. **Focus on Projects**: Have a good grip on the projects you have worked on, as they often come up during interviews. Be prepared to discuss your contributions and the technologies used.
