@@ -95,11 +95,11 @@ For placement preparation, it is essential to cover the following areas:
 
 ### 1. **Operating Systems (OS)**:
 - **[GeeksforGeeks OS Resources](https://www.geeksforgeeks.org/operating-systems/)** - Comprehensive OS concepts explained.
-- **[InterviewBit OS Questions](https://www.interviewbit.com/operating-system/interview-questions/)** - Interview questions on operating systems.
+- **[InterviewBit OS Questions](https://www.interviewbit.com/operating-system-interview-questions/)** - Interview questions on operating systems.
 
 ### 2. **Computer Networks (CN)**:
 - **[GeeksforGeeks CN Resources](https://www.geeksforgeeks.org/computer-network-tutorials/)** - Learn the fundamentals of computer networks.
-- **[InterviewBit CN Questions](https://www.interviewbit.com/computer-network/interview-questions/)** - Key questions on computer networks.
+- **[InterviewBit CN Questions](https://www.interviewbit.com/computer-network-mcq/)** - Key questions on computer networks.
 
 ### 3. **Database Management Systems (DBMS)**:
 - **[GeeksforGeeks DBMS Resources](https://www.geeksforgeeks.org/dbms/)** - Detailed articles covering all DBMS topics.
