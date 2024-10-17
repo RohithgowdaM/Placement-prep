@@ -38,7 +38,7 @@ For placement preparation, it is essential to cover the following areas:
    Learn how to design scalable systems. Key concepts include databases, caching, load balancing, etc.
 
 4. **Coding Practice**  
-   Consistently solve problems on platforms like LeetCode, InterviewBit, or HackerRank.
+   Consistently solve problems on platforms like LeetCode, Coding ninjas, Codeforces, Codechef, GFG etc.
    
 5. **Aptitude & Logical Reasoning**  
    Most companies have aptitude rounds. Brush up on your quantitative and logical reasoning skills.
